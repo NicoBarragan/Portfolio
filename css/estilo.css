@@ -34,7 +34,7 @@ body {
 
 .container{
   width: 1000px;
-  border: 5px solid #011F38;
+  border: 3.5px solid #011F38;
   margin: 0 auto;
   background-color: white;
   box-sizing: border-box;
@@ -42,6 +42,10 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0px 2px 20px 20px rgba(0,0,0,0.5);
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  border-bottom: 5px solid #011F38;
 }
 
 .titulo{
@@ -53,11 +57,12 @@ body {
 }
 
 .personal{
-  border: 5px solid #011F38;
+  border-right: 3.5px solid #011F38;
+  border-left: 3.5px solid #011F38;
+  border-radius: 4px;
   background-color:#023661;
   height: 400px;
   width: inherit;
-  border-radius: 2px;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
@@ -85,10 +90,11 @@ body {
 }
 
 .ambiciones{
-  border: 5px solid #011F38;
+  border-right: 3.5px solid #011F38;
+  border-left: 3.5px solid #011F38;
+  border-radius: 4px;
   background-color:#023661;
   width: inherit; 
-  border-radius: 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,7 +109,7 @@ body {
   margin: 0;
 }
 .ambiciones img{
-  border: 3px solid  #011F38;
+  border: 3.5px solid #011F38;
   border-radius: 4px;
   object-fit: cover;
   margin-top: 0;
